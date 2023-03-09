@@ -21,7 +21,7 @@ public class Main {
 
     public static void main(String[] args) {
         //Ejemplo hola mundo
-        String mensaje = "Hola Mundo en Javalin :-D";
+        String mensaje = "APLICACION 2";
         System.out.println(mensaje);
 
         //Creando la instancia del servidor y configurando.
