@@ -97,7 +97,7 @@ public class Main {
         app.start(getHerokuAssignedPort());
 
         //creando el manejador
-        app.get("/", ctx -> ctx.result("Hola Mundo en Javalin :-D"));
+        app.get("/", ctx -> ctx.result("APLICACION 2"));
 
         //aplicando los diferentes conceptos.
         new ConceptoBasicosControlador(app).aplicarRutas();
